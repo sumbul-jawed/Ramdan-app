@@ -148,7 +148,7 @@ elif menu == "Ramadan Calendar ":
     """, unsafe_allow_html=True)
     
     # Ramadan Calendar Image
-    st.image("./image/ram.PNG", caption="Ramadan Calendar", use_container_width=400)
+    st.image("https://github.com/sumbul-jawed/Ramdan-app/blob/main/ram.PNG", caption="Ramadan Calendar", use_container_width=400)
 
 
     # 🎉 Closing Message
