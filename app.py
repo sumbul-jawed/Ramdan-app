@@ -10,7 +10,7 @@ st.markdown(
    <style>
     /* Sidebar Customization */
     [data-testid="stSidebar"] {
-        background-color: #E28B46  !important; /* Light Pink */
+        background-color: #E28B46  !important; 
         color: black !important;
     }
     [data-testid="stSidebar"] * {
@@ -91,8 +91,8 @@ elif menu == "Sehri & Iftar Timings":
             <div style='background: #f8f8f8; padding: 15px; border-radius: 10px; text-align: center;
                         box-shadow: 2px 2px 10px rgba(0,0,0,0.2);'>
                 <h2 style='color: #FF5733;'>⏳ Sehri & Iftar Timings</h2>
-                <p style='font-size: 18px;'><b>🌙 Sehri Time:</b> {sehri_time}</p>
-                <p style='font-size: 18px;'><b>🌅 Iftar Time:</b> {iftar_time}</p>
+                <p style='color: #3357FF; font-size: 18px;'><b>🌙 Sehri Time:</b> {sehri_time}</p>
+                <p style='color: #3357FF; font-size: 18px;'><b>🌅 Iftar Time:</b> {iftar_time}</p>
             </div>
         """, unsafe_allow_html=True)
 
