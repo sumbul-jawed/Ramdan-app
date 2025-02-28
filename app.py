@@ -151,6 +151,6 @@ elif menu == "Ramadan Calendar ":
     image_url = "https://raw.githubusercontent.com/sumbul-jawed/Ramdan-app/main/ram.PNG"
 
 # Streamlit میں image show کریں
-st.image(image_url, caption="Ramadan Calendar", use_column_width=True)
+st.image(image_url, caption="Ramadan Calendar", use_contaimer_width=400)
     # 🎉 Closing Message
 st.markdown("##### The month of mercy, blessings, and forgiveness—Ramadan is a gift from Allah. 🌙✨")
