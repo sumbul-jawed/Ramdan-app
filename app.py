@@ -148,7 +148,8 @@ elif menu == "Ramadan Calendar ":
     """, unsafe_allow_html=True)
     
     # Ramadan Calendar Image
-    st.image("image/ram.PNG", caption="Ramadan Calendar", use_container_width=400)
+    st.image("./image/ram.PNG", caption="Ramadan Calendar", use_container_width=400)
+
 
     # 🎉 Closing Message
 st.markdown("##### The month of mercy, blessings, and forgiveness—Ramadan is a gift from Allah. 🌙✨")
