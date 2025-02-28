@@ -139,15 +139,6 @@ elif menu == "3 Ashras Duas":
     *"O Allah, save me from the fire (of Hell)."*  
     """)
 
-   st.sidebar.subheader("📿 Alvida Jumma")
-st.sidebar.write("Alvida Jumma, the last Friday of Ramadan, is a day of immense blessings. Offer special prayers and seek forgiveness.")
-
-st.sidebar.subheader("✨ 27th Shab (Shab-e-Qadr)")
-st.sidebar.write("The 27th night of Ramadan is one of the most significant nights. Engage in prayers, supplications, and recitation of the Quran.")
-
-st.sidebar.subheader("🕌 Tarawih")
-st.sidebar.write("Tarawih is a special night prayer during Ramadan. It is an opportunity to listen to and reflect upon the Quran.")
-
 # Ramadan Calendar
 elif menu == "Ramadan Calendar ":
     st.markdown("""
