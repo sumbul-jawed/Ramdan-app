@@ -1,7 +1,5 @@
 import streamlit as st
-from PIL import Image
 import requests
-from io import BytesIO
 
 # Page Layout
 st.set_page_config(page_title="\U0001F319 Ramadan App", layout="wide")
@@ -150,13 +148,9 @@ elif menu == "Ramadan Calendar ":
     """, unsafe_allow_html=True)
     
     # Ramadan Calendar Image
-    image_url = "https://raw.githubusercontent.com/sumbul-jawed/Ramdan-app/main/image/ram.PNG"
-response = requests.get(image_url)
+    image_url = "https://raw.githubusercontent.com/sumbul-jawed/Ramdan-app/main/ram.PNG"
 
-if response.status_code == 200:
-    image = Image.open(BytesIO(response.content))
-    st.image(image, caption="Ramadan Calendar", use_column_width=True)
-else:
-    st.error("Image could not be loaded. Please check the URL.")
+# Streamlit میں image show کریں
+st.image(image_url, caption="Ramadan Calendar", use_column_width=True)
     # 🎉 Closing Message
 st.markdown("##### The month of mercy, blessings, and forgiveness—Ramadan is a gift from Allah. 🌙✨")
